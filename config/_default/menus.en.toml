@@ -4,12 +4,6 @@
   weight = 100
   url = "/"
 
-  [[main]]
-  name = "Posts"
-  weight = 200
-  identifier = "posts"
-  url = "/post/"
-
   [[footer]]
   name = "imprint"
   weight = 1

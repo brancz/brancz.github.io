@@ -2,6 +2,7 @@
 author = "Frederic Branczyk"
 title = "kube-state-metrics the past, the present, and the future"
 date = "2017-11-13"
+type = "post"
 +++
 
 The [kube-state-metrics](https://github.com/kubernetes/kube-state-metrics) project is a service you can deploy in your [Kubernetes](https://kubernetes.io/) cluster. It watches Kubernetes objects, in order to expose metrics in the [Prometheus](https://prometheus.io/) format. The project lives under the umbrella of the Kubernetes organization and was started by [Sam Ghods](https://twitter.com/theghodss) at Box in May 2016. There has been a growing popularity in the project, so I wanted to share the current state of the project and what I believe the future holds. This post will particularly focus on the architectural changes that the project has undergone and explain the reasoning for the more significant ones.

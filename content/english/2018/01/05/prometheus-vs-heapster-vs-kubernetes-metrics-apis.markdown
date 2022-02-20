@@ -2,6 +2,7 @@
 author = "Frederic Branczyk"
 title = "Prometheus vs. Heapster vs. Kubernetes Metrics APIs"
 date = "2018-01-05"
+type = "post"
 +++
 
 In this blog post, I will try to explain the relation between [Prometheus][prometheus], [Heapster][heapster], as well as the [Kubernetes][kubernetes] metrics APIs and conclude with the recommended way how to autoscale workloads on Kubernetes.

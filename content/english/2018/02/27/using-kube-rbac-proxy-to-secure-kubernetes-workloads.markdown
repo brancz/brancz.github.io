@@ -2,6 +2,7 @@
 author = "Frederic Branczyk"
 title = "Using kube-rbac-proxy to secure Kubernetes workloads"
 date = "2018-02-27"
+type = "post"
 +++
 
 While working on and around monitoring [Kubernetes](https://kubernetes.io/) clusters with [Prometheus](https://prometheus.io/), I have noticed a reoccurring problem: metrics that are retrieved by Prometheus may potentially contain sensitive information (for example the [Prometheus node-exporter](https://github.com/prometheus/node_exporter) exposes the Kernel version of the host), which a potential intruder may use in order to exploit their way through a respective Kubernetes cluster. So I asked myself the question: How does one authenticate and authorize requests from Prometheus so that Prometheus and only Prometheus can retrieve metrics from an application running in a Pod?
