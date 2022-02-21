@@ -2,7 +2,7 @@
 title = "Frederic Branczyk's Website"
 author = "Frederic Branczyk"
 #copyright = "2020-2021"
-description = "Founder of Polar Signals"
+description = "Founder of <a href='https://polarsignals.com/' target='_blank' style='font-size: 1.4rem'>Polar Signals</a>"
 profilePicture = "images/profile.jpg"
 keywords = ""
 favicon = "favicons/"
